@@ -1,0 +1,89 @@
+/* Fraction Calculator Container */
+.fraction-calculator {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Calculator Header */
+.calculator-header {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+/* Fraction Inputs Container */
+.fraction-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Numerator and Denominator Input Fields */
+input[type="number"] {
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* Fraction Separator (/) */
+.fraction-inputs span {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 5px;
+}
+
+/* Operator Radio Buttons Container */
+.operator-radio {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 10px;
+}
+
+/* Operator Radio Buttons */
+.operator-radio label {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.operator-radio input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Calculate Button */
+.calculate-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #0056b3;
+}
+
+/* Calculation Result */
+.calculation-result {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+}

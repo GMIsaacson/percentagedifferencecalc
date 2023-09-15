@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.calculator-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid blue;
+}
+
+.calculator {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  min-height: 600px;
+  border: 1px solid red;
+}
+
+.calculator-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: calc(100% - 62px); /* Adjust based on your design */
+}
+
+.calculate-button,
+.clear-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.calculate-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.clear-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.steps {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
